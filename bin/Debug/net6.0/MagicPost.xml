@@ -1,0 +1,223 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MagicPost</name>
+    </assembly>
+    <members>
+        <member name="M:MagicPost.Controllers.DiemGiaoDichController.GetAll">
+            <summary>
+            Lấy danh sách tất cả điểm giao dịch
+            </summary>
+        </member>
+        <member name="M:MagicPost.Controllers.DiemGiaoDichController.Paging(MagicPost.Models.Pagings.DiemPaging)">
+            <summary>
+            Lấy danh sách điểm giao dịch có phân trang và tìm kiếm
+            </summary>
+        </member>
+        <member name="M:MagicPost.Controllers.DiemGiaoDichController.NhanVien(System.Int32)">
+            <summary>
+            Lấy danh sách nhân viên tại điểm giao dịch
+            </summary>
+        </member>
+        <member name="M:MagicPost.Controllers.DiemGiaoDichController.GetByMa(System.Int32)">
+            <summary>
+            Tìm kiếm điểm giao dịch bằng mã
+            </summary>
+        </member>
+        <member name="M:MagicPost.Controllers.DiemGiaoDichController.Create(MagicPost.Datas.DiemGiaoDich)">
+            <summary>
+            Tạo điểm giao dịch mới
+            </summary>
+        </member>
+        <member name="M:MagicPost.Controllers.DiemGiaoDichController.Update(MagicPost.Datas.DiemGiaoDich)">
+            <summary>
+            Chỉnh sửa thông tin điểm giao dịch
+            </summary>
+        </member>
+        <member name="M:MagicPost.Controllers.DiemGiaoDichController.Delete(System.Int32)">
+            <summary>
+            Xóa điểm giao dịch
+            </summary>
+        </member>
+        <member name="M:MagicPost.Controllers.DiemGiaoDichController.Sanpham(System.Int32)">
+            <summary>
+            Lấy tất cả sản phẩm tại điểm giao dịch
+            </summary>
+        </member>
+        <member name="M:MagicPost.Controllers.DiemTapKetController.GetAll">
+            <summary>
+            Danh sách tất cả điểm tập kết
+            </summary>
+        </member>
+        <member name="M:MagicPost.Controllers.DiemTapKetController.Paging(MagicPost.Models.Pagings.DiemPaging)">
+            <summary>
+            Danh sách điểm tập kết có phân trang và tìm kiếm
+            </summary>
+        </member>
+        <member name="M:MagicPost.Controllers.DiemTapKetController.NhanVien(System.Int32)">
+            <summary>
+            Danh sách nhân viên tại điểm tập kết
+            </summary>
+        </member>
+        <member name="M:MagicPost.Controllers.DiemTapKetController.GetByMa(System.Int32)">
+            <summary>
+            Tìm kiếm điểm tập kết theo mã
+            </summary>
+        </member>
+        <member name="M:MagicPost.Controllers.DiemTapKetController.Create(MagicPost.Datas.DiemTapKet)">
+            <summary>
+            Tạo điểm tập kết
+            </summary>
+        </member>
+        <member name="M:MagicPost.Controllers.DiemTapKetController.Update(MagicPost.Datas.DiemTapKet)">
+            <summary>
+            Chỉnh sửa thông tin điểm tập kết
+            </summary>
+        </member>
+        <member name="M:MagicPost.Controllers.DiemTapKetController.Delete(System.Int32)">
+            <summary>
+            Xóa điểm tập kết
+            </summary>
+        </member>
+        <member name="M:MagicPost.Controllers.DiemTapKetController.Sanpham(System.Int32)">
+            <summary>
+            Lấy danh sách sản phẩm tại điểm tập kết
+            </summary>
+        </member>
+        <member name="M:MagicPost.Controllers.HanhChinhController.ThanhPho">
+            <summary>
+            Danh sách thành phố
+            </summary>
+        </member>
+        <member name="M:MagicPost.Controllers.HanhChinhController.QuanHuyen(System.String)">
+            <summary>
+            Danh sách quận huyện theo mã thành phố
+            </summary>
+        </member>
+        <member name="M:MagicPost.Controllers.HanhChinhController.XaPhuong(System.String,System.String)">
+            <summary>
+            Danh sách xã phường theo mã thành phố và mã quận huyện
+            </summary>
+        </member>
+        <member name="M:MagicPost.Controllers.HoaDonDiemGiaoDichController.NhanHang(MagicPost.Datas.DonNhan)">
+            <summary>
+            Tạo hóa đơn nhận hàng từ khách hàng
+            </summary>
+        </member>
+        <member name="M:MagicPost.Controllers.HoaDonDiemGiaoDichController.GetDonNhan(MagicPost.Models.Pagings.HoaDonPaging)">
+            <summary>
+            Danh sách hóa đơn nhận hàng
+            </summary>
+        </member>
+        <member name="M:MagicPost.Controllers.HoaDonDiemGiaoDichController.GetDonNhanByMa(System.Int32)">
+            <summary>
+            Lấy hóa đơn nhận hàng bằng mã
+            </summary>
+        </member>
+        <member name="M:MagicPost.Controllers.HoaDonDiemGiaoDichController.SuaDonNhan(System.Int32,MagicPost.Datas.DonNhan)">
+            <summary>
+            Chỉnh sửa hóa đơn nhận hàng
+            </summary>
+        </member>
+        <member name="M:MagicPost.Controllers.HoaDonDiemGiaoDichController.SuaSanPhamTrongDonNhan(System.Int32,MagicPost.Datas.SanPhamDonNhan)">
+            <summary>
+            Chỉnh sửa thông tin sản phẩm trong đơn nhận
+            </summary>
+        </member>
+        <member name="M:MagicPost.Controllers.HoaDonDiemGiaoDichController.DonGiao(System.Int32)">
+            <summary>
+            Tạo đơn giao hàng
+            </summary>
+        </member>
+        <member name="M:MagicPost.Controllers.HoaDonDiemGiaoDichController.GetDonGiao(MagicPost.Models.Pagings.HoaDonPaging)">
+            <summary>
+            Lấy danh sách hóa đơn giao hàng có phân trang
+            </summary>
+        </member>
+        <member name="M:MagicPost.Controllers.HoaDonDiemGiaoDichController.GetDonGiaoByMa(System.Int32)">
+            <summary>
+            Lấy hóa đơn giao hàng theo mã
+            </summary>
+        </member>
+        <member name="M:MagicPost.Controllers.HoaDonDiemGiaoDichController.DonChuyen(MagicPost.Datas.DonVanChuyen)">
+            <summary>
+            Tạo hóa đơn vận chuyển
+            </summary>
+        </member>
+        <member name="M:MagicPost.Controllers.HoaDonDiemGiaoDichController.GetDonChuyen(MagicPost.Models.Pagings.HoaDonPaging)">
+            <summary>
+            Lấy hóa đơn vận chuyển
+            </summary>
+        </member>
+        <member name="M:MagicPost.Controllers.HoaDonDiemGiaoDichController.GetDonChuyenByMa(System.Int32)">
+            <summary>
+            Lấy hóa đơn vận chuyển theo mã
+            </summary>
+        </member>
+        <member name="M:MagicPost.Controllers.HoaDonDiemGiaoDichController.XacNhan(System.Int32)">
+            <summary>
+            Xác nhận hóa đơn vận chuyển tới điểm giao dịch
+            </summary>
+        </member>
+        <member name="M:MagicPost.Controllers.HoaDonDiemTapKet.DonChuyen(MagicPost.Datas.DonVanChuyen)">
+            <summary>
+            Tạo hóa đơn chuyển
+            </summary>
+        </member>
+        <member name="M:MagicPost.Controllers.HoaDonDiemTapKet.GetDonChuyen(MagicPost.Models.Pagings.HoaDonPaging)">
+            <summary>
+            Danh sách đơn vận chuyển có phân trang
+            </summary>
+        </member>
+        <member name="M:MagicPost.Controllers.HoaDonDiemTapKet.GetDonChuyenByMa(System.Int32)">
+            <summary>
+            Lấy đơn vận chuyển theo mã
+            </summary>
+        </member>
+        <member name="M:MagicPost.Controllers.HoaDonDiemTapKet.XacNhan(System.Int32)">
+            <summary>
+            Xác nhận đơn vận chuyển
+            </summary>
+        </member>
+        <member name="M:MagicPost.Controllers.NhanVienController.GetVaiTro">
+            <summary>
+            Danh sách vai trò
+            </summary>
+        </member>
+        <member name="M:MagicPost.Controllers.NhanVienController.GetNhanVien(MagicPost.Models.Pagings.NhanVienPaging)">
+            <summary>
+            Danh sách nhân viên
+            </summary>
+        </member>
+        <member name="M:MagicPost.Controllers.NhanVienController.GetNhanVienByMa(System.Int32)">
+            <summary>
+            Lấy danh sách nhân viên theo mã
+            </summary>
+        </member>
+        <member name="M:MagicPost.Controllers.NhanVienController.Create(MagicPost.Datas.TaiKhoan)">
+            <summary>
+            Tạo nhân viên mới
+            </summary>
+        </member>
+        <member name="M:MagicPost.Controllers.NhanVienController.Update(MagicPost.Datas.TaiKhoan)">
+            <summary>
+            Chỉnh sửa tài khoản sinh viên
+            </summary>
+        </member>
+        <member name="M:MagicPost.Controllers.NhanVienController.Remove(System.Int32)">
+            <summary>
+            Xóa tài khoản
+            </summary>
+        </member>
+        <member name="M:MagicPost.Controllers.SignInController.Index(MagicPost.Models.SignInModel)">
+            <summary>
+            Đăng nhập với JWT token
+            </summary>
+        </member>
+        <member name="M:MagicPost.Controllers.ThongKeController.Index(System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.DateTime})">
+            <summary>
+            Thống kê số lượng sản phẩm tại điểm giao dịch, điểm tập kết theo ngày
+            </summary>
+        </member>
+    </members>
+</doc>

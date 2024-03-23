@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.34302.98
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicPost", "MagicPost\MagicPost.csproj", "{13CA9BB9-2A89-4040-A520-AF6869DD82A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13CA9BB9-2A89-4040-A520-AF6869DD82A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13CA9BB9-2A89-4040-A520-AF6869DD82A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13CA9BB9-2A89-4040-A520-AF6869DD82A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13CA9BB9-2A89-4040-A520-AF6869DD82A4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F51B61C5-07B0-44C5-BD40-A9964DA30DC2}
+	EndGlobalSection
+EndGlobal
